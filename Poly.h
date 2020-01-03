@@ -1,16 +1,19 @@
+// ------------------------------- Poly.h-------------------------------------------------------------------------
 
-// ------------------------------- Poly.h---------------------------------------------------------------------
 /* Author: Elias Alabssie
 *Class: CSS 343, Section c
 *project created: Jan 10, 2019
 *Date of Last Modification: Jan 20, 2019
- -------------------------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------------------
+
  * This Poly class header creates a declaration for an abstract data type using dinamic arrays for  polynomials. 
    the array is created dynamically using pointers. operators are overloaded for the class to do polynomial calculations
---------------------------------------------------------------------------------------------------------------
-   The program assumes the user inputs a positive integers  or zero as exponent for the polynimial.
+------------------------------------------------------------------------------------------------------------------------
+ 
+The program assumes the user inputs a positive integers  or zero as exponent for the polynimial.
    also the program assumes the user doesn't input non-numberic values (no data type checking).
---------------------------------------------------------------------------------------------------------------*/
+--------------------------------------------------------------------------------------------------------------------------*/
+
 #pragma once 
 #include<iostream>
 using namespace std;
@@ -65,6 +68,6 @@ private:
 	int maxSize;
 	double* thisArray; 
 
-};
+};//this is the end of the source file
 
 
