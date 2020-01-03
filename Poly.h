@@ -68,6 +68,6 @@ private:
 	int maxSize;
 	double* thisArray; 
 
-};//this is the end of the source file
+};//The end of the source file
 
 
